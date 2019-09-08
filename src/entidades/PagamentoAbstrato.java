@@ -12,7 +12,7 @@ public abstract class PagamentoAbstrato {
 		pagamento.pagarCompraTipo(produto);
 	}
 	
-	abstract void pagar(Produto produto);
+	public abstract void pagar(Produto produto);
 
 	
 	}

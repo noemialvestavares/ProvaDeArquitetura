@@ -8,7 +8,7 @@ public class CompraAVistaDialogo extends PagamentoAbstrato{
 
 
 	@Override
-	void pagar(Produto produto) {
+	public void pagar(Produto produto) {
 		pagarCompraTipo(produto);
 		
 	}

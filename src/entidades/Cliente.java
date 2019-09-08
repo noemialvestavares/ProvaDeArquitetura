@@ -3,9 +3,9 @@ package entidades;
 public class Cliente extends Pessoa{
 	private String tipo;
 
-	public Cliente(String nome, String cpf) {
+	public Cliente(String nome, String cpf, String tipo) {
 		super(nome, cpf);
-		// TODO Auto-generated constructor stub
+		this.tipo=tipo;
 	}
 
 	public String getTipo() {

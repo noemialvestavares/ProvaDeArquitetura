@@ -1,21 +1,22 @@
 package entidades;
 
 public abstract class Produto {
-	private String código,nome;
+	private String nome;
+	private int codigo;
 	private double preco;
 	
-	public Produto(String código, String nome,double preco) {
+	public Produto(int código, String nome,double preco) {
 		super();
-		this.código = código;
+		this.codigo = código;
 		this.nome = nome;
 		
 		this.preco = preco;
 	}
-	public String getCódigo() {
-		return código;
+	public int getCódigo() {
+		return codigo;
 	}
-	public void setCódigo(String código) {
-		this.código = código;
+	public void setCódigo(int código) {
+		this.codigo = código;
 	}
 	public String getNome() {
 		return nome;

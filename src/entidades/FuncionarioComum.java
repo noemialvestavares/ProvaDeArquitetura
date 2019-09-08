@@ -4,9 +4,10 @@ public class FuncionarioComum extends Pessoa{
 	private String funcao;
 	private double salario;
 	
-	public FuncionarioComum(String nome, String cpf) {
+	public FuncionarioComum(String nome, String cpf, String funcao, double salario) {
 		super(nome, cpf);
-		// TODO Auto-generated constructor stub
+		this.funcao=funcao;
+		this.salario=salario;
 	}
 	
 	

@@ -5,7 +5,7 @@ import java.util.Date;
 public class Comida extends Produto{
 	private Date validade, fabricacao;
 
-	public Comida(String código, String nome, double preco, Date validade, Date fabricacao) {
+	public Comida(int código, String nome, double preco, Date validade, Date fabricacao) {
 		super(código, nome, preco);
 		this.fabricacao=fabricacao;
 		this.validade=validade;
